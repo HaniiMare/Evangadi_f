@@ -1,0 +1,47 @@
+.section_container{
+  margin-top: -1.5rem !important;
+  margin-bottom: -1.3rem !important;
+}
+
+.action_btn:hover{
+  background-color: rgb(255,133,0) !important;
+}
+.nav-item a:hover{
+  color: rgb(255,133,0) !important; 
+}
+.landing{
+  height: 100vh;
+}
+.user svg{
+  width: 100px;
+  height: 100px;
+}
+.m_bottom{
+  padding-bottom: 25px;
+}
+
+.password-toogle-icon{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 767.98px) {
+  .navbar-brand.logo img.evaLogo {
+    max-width: 200px;
+  }
+  .firstLastNaame {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstLastNaame input {
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+  }
+
+}
